@@ -467,4 +467,4 @@ async def send_all(bot, userid, files, ident):
             file_id=file.file_id,
             caption=f_caption,
             protect_content=True if ident == "filep" else False,
-            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ •', url=UPDATE_CHANNEL) ] ] ))
+            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Chaîne de mise à jour •', url=UPDATE_CHANNEL) ] ] ))
